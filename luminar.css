@@ -1,0 +1,15 @@
+.txt:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(54, 5, 77);
+    color: blueviolet;
+    
+}
+.txt{
+   
+
+    color: black;
+}
+.txt1{
+    color: rgb(84, 10, 103);
+    font-weight: bold;
+}

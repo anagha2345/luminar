@@ -13,3 +13,9 @@
     color: rgb(84, 10, 103);
     font-weight: bold;
 }
+.button-default{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 30px;
+    width: 50px;
+}

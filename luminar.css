@@ -19,3 +19,49 @@
     height: 30px;
     width: 50px;
 }
+@media(min-width:990px) and (max-width:1200px){
+    h1{
+        font-size: 52px;
+    }
+}
+h1{
+    font-size: 60px;
+}
+
+.box{
+    background: #fff;
+    transition: .5s ease;
+    border: 1px solid rgb(221, 221, 226);
+}
+.box:hover{
+    transition: .5s ease;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card{
+    border-radius: 0%;
+    
+}
+.card-img-top{
+    width: 100%;
+
+    
+}
+.button-container-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.btnb{
+    background-color: rgb(252, 246, 253);
+    color: rgb(73, 4, 80);
+    border-color: rgb(84, 8, 80);
+    border-radius: 25px;
+    padding: 10px;
+}
+.btnb:hover{
+    background-color: rgb(100, 14, 108);
+    color: rgb(251, 244, 244);
+}

@@ -65,3 +65,16 @@ h1{
     background-color: rgb(100, 14, 108);
     color: rgb(251, 244, 244);
 }
+.anm{
+   animation: anim 2s ease-in 1s;
+
+}
+@keyframes anim{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+
+}

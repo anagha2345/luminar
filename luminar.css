@@ -1,12 +1,9 @@
 .txt:hover{
     text-decoration: underline;
     text-decoration-color: rgb(54, 5, 77);
-    color: blueviolet;
-    
+    color: blueviolet; 
 }
 .txt{
-   
-
     color: black;
 }
 .txt1{
@@ -19,15 +16,26 @@
     height: 30px;
     width: 50px;
 }
-@media(min-width:990px) and (max-width:1200px){
-    h1{
-        font-size: 52px;
-    }
+body {
+    height: 2000px;
+    background-color: #f5f5f5da;
+  }
+  .h12 {
+    color: white;
+    font-size: 80px;
+    font-style: normal;
+  }
+  h5 {
+    color: rgb(59, 17, 99);
+    text-decoration: none;
+  }
+.btnt{
+    background-color: rgb(49, 6, 84);
+    border-radius: 25px;
+     width: 140px;
+    height: 50px; 
+    color: rgb(223, 228, 231);
 }
-h1{
-    font-size: 60px;
-}
-
 .box{
     background: #fff;
     transition: .5s ease;
@@ -38,21 +46,16 @@ h1{
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
 .card{
     border-radius: 0%;
-    
 }
 .card-img-top{
     width: 100%;
-
-    
 }
 .button-container-wrap {
     display: flex;
     justify-content: center;
     padding-top: 100px;
-
 }
 .btnb{
     background-color: rgb(252, 246, 253);
@@ -70,11 +73,23 @@ h1{
 
 }
 @keyframes anim{
+   
     0%{
-        transform: translateY(-50px);
+        transform: translateY(70px);
     }
-    50%{
-        transform: translateY(-100px);
+
+}
+.p12{
+    font-size: 20px;
+}
+@media(max-width:600px){
+    .h12{
+       font-size: 35px;
+       
     }
+    .p12{
+        font-size: 10px;
+    }
+   
 
 }
